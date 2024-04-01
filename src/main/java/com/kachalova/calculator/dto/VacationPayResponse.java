@@ -4,18 +4,18 @@ import java.math.BigDecimal;
 
 public class VacationPayResponse {
     private String string;
-    private BigDecimal vacationPay;
+    private BigDecimal pay;
 
     public VacationPayResponse(String string, BigDecimal vacationPay) {
         this.string = string;
-        this.vacationPay = vacationPay;
+        this.pay = vacationPay;
     }
 
     public String getString() {
         return string;
     }
 
-    public BigDecimal getVacationPay() {
-        return vacationPay;
+    public BigDecimal getPay() {
+        return pay;
     }
 }
