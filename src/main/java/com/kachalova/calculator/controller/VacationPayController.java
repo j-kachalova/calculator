@@ -27,7 +27,7 @@ public class VacationPayController {
                                      @RequestParam("vacationStart") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) Optional<LocalDate> startVacationDate,
                                      @RequestParam("vacationEnd") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) Optional<LocalDate> endVacationDate,
                                      Model model) {
-        // количество оплаичваемых дней
+        // количество оплачиваемых дней
         int paidDays;
 
         // подсчет количества дней, если указаны даты
